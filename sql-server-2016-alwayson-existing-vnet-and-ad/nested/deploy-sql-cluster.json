@@ -111,7 +111,10 @@
 			"name": "[variables('sqlAvailabilitySetName')]",
 			"apiVersion": "2016-04-30-preview",
 			"location": "[resourceGroup().location]",
-			"properties": {}
+			"properties": {},
+			"sku": {
+				"name": "Aligned"
+			}
 		},
 		{
 			"apiVersion": "2015-06-15",
