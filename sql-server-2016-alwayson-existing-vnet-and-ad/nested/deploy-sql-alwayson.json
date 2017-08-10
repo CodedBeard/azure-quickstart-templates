@@ -87,12 +87,6 @@
             "sqlServiceCreds": {
               "userName": "[parameters('sqlServerServiceAccountUserName')]",
               "password": "PrivateSettingsRef:sqlServerServiceAccountPassword"
-            },
-            "numberOfDisks": {
-                "value": "3"
-            },
-            "workloadType": {
-                "value": "GENERAL"
             }
           }
         },
